@@ -1,4 +1,4 @@
-# Documentação do Projeto: Contribution Graph API
+# Documentação do Projeto: ContributionsGrid
 
 [![GitHub](https://img.shields.io/badge/GitHub-API-blue?logo=github)](https://github.com)
 [![GraphQL](https://img.shields.io/badge/GraphQL-Middleware-blue?logo=graphql)](https://graphql.org)
@@ -6,7 +6,7 @@
 
 ## Visão Geral
 
-O **Contribution Graph API** é uma API GraphQL que fornece dados das contribuições de um usuário do GitHub, apresentados em um gráfico de contribuições. O objetivo principal é permitir que desenvolvedores integrem esses dados em seus projetos, seja através de um bot do Discord ou de iframes incorporados em páginas HTML.
+O **ContributionsGrid** é uma API GraphQL que fornece dados das contribuições de um usuário do GitHub, apresentados em um gráfico de contribuições. O objetivo principal é permitir que desenvolvedores integrem esses dados em seus projetos, seja através de um bot do Discord ou de iframes incorporados em páginas HTML.
 
 O objetivo da API é ser um Middleware stateless entre o cliente e o A GithubAPI, limitando e organizando a requsição para obter os dados requeridos no formato desejado.
 
