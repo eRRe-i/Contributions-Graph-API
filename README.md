@@ -31,11 +31,6 @@ O projeto também possui um front que entrega as imagens com um forms para ajuda
 - Total de contribuições do dia atual e do dia anterior.
 - Lista detalhada das contribuições, incluindo tipo e descrição.
 
-### Integrações:
-- **Bot do Discord**: Permite que usuários solicitem seus gráficos de contribuição diretamente no Discord.
-- **Iframes**: Permite a incorporação do gráfico em páginas HTML.
-
-
 ## Tecnologias Utilizadas
 
 ### Backend:
