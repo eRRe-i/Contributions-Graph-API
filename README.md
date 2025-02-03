@@ -1,4 +1,4 @@
-# Documentação do Projeto: ContributionsGrid
+# ContributionsGrid
 
 [![GitHub](https://img.shields.io/badge/GitHub-API-blue?logo=github)](https://github.com)
 [![GraphQL](https://img.shields.io/badge/GraphQL-Middleware-blue?logo=graphql)](https://graphql.org)
