@@ -1,7 +1,7 @@
 # Documentação do Projeto: Contribution Graph API
 
 [![GitHub](https://img.shields.io/badge/GitHub-API-blue?logo=github)](https://github.com)
-[![GraphQL](https://img.shields.io/badge/GraphQL-API-pink?logo=graphql)](https://graphql.org)
+[![GraphQL](https://img.shields.io/badge/GraphQL-Middleware-blue)](https://graphql.org)
 [![Node.js](https://img.shields.io/badge/Node.js-Server-green?logo=node.js)](https://nodejs.org)
 
 ## Visão Geral
