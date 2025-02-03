@@ -6,7 +6,7 @@
 
 ## Visão Geral
 
-O **ContributionsGrid** é uma API GraphQL que fornece dados das contribuições de um usuário do GitHub, apresentados em um gráfico de contribuições. O objetivo principal é permitir que desenvolvedores integrem esses dados em seus projetos, seja através de um bot do Discord ou de iframes incorporados em páginas HTML.
+### **ContributionsGrid**
 
 O objetivo da API é ser um Middleware stateless entre o cliente e o A GithubAPI, limitando e organizando a requsição para obter os dados requeridos no formato desejado.
 
@@ -17,6 +17,21 @@ O gráfico de contribuições é gerado com base nos dados da API do GitHub e in
 - Detalhes das contribuições, como tipo (**Pull Request, Issue Opened, Issue Closed, Code Review, etc.**) e descrição.
 
 O projeto também possui um front que entrega as imagens com um forms para ajudar a montar a requisição, bem como um docs que mostra como utilizar a ferramenta.
+
+### **ContributionsTree**
+
+O objetivo principal da API é fornecer um histórico estruturado das contribuições de um usuário no GitHub, organizado em um grafo que inclui:
+
+    Projeto -> Pull Requests -> Commits (associados ao Pull Request).
+    Projeto -> Issues (Abertas ou Fechadas).
+    Projeto -> Code Reviews.
+    Projeto -> Commits avulsos.
+
+Além disso, o grafo pode incluir:
+
+    Um cabeçalho com o nome completo (fullName) e o nome de usuário do GitHub (gitHubUsername).
+    Filtros para mostrar apenas Issues, Pull Requests ou Commits.
+
 
 ## Funcionalidades Principais
 
