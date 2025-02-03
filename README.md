@@ -98,7 +98,7 @@ Este projeto está sob a **MIT License**.
 
 ## Contato
 - **Discord:** umgnomochamadoaltair
-- **GitHub:** eRRe-i
+- **GitHub:** [eRRe-i](https://github.com/eRRe-i)
 
 
 
